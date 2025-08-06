@@ -51,7 +51,7 @@ body {
   );
   background-size: 1200% 1200%;
   animation: gradientShift 8s ease infinite;
-  opacity: 0.95; /* Slightly adjusted opacity */
+  opacity: 0.5; /* Slightly adjusted opacity */
   position: relative;
   z-index: 10;
 }
