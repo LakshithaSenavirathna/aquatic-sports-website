@@ -51,7 +51,7 @@ body {
   );
   background-size: 1200% 1200%;
   animation: gradientShift 8s ease infinite;
-  opacity: 0.3; /* Slightly adjusted opacity */
+  opacity: 0.7; /* Slightly adjusted opacity */
   position: relative;
   z-index: 10;
 }
@@ -111,3 +111,11 @@ body {
   }
 }
 
+/* === NEW STYLE FOR LOGO HIGHLIGHT === */
+.logo-highlight {
+  background-color: rgb(252, 227, 0); /* Bright yellow background */
+  padding: 0px 15px;                 /* Space around the logo */
+  box-shadow: 0 0 40px 10px rgba(0, 255, 242, 0.7); /* Cyan glow */
+  border-radius: 40px;                /* Slightly rounded corners */
+  display: inline-block;             /* Ensures proper box sizing */
+}
